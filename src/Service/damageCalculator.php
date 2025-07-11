@@ -1,5 +1,5 @@
 <?php 
-namespace App\services;
+namespace App\Service;
 
 use App\DTO\CharacterDTO;
 
