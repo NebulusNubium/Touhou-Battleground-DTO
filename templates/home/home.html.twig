@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block main %}
+<h1>Combat Damage Test</h1>
+
+    <ul>
+        <li><strong>Attacker Power:</strong> {{ attackerPower }}</li>
+        <li><strong>Defender Defense:</strong> {{ defenderDefense }}</li>
+        <li><strong>Skill Power:</strong> {{ baseSkillPower }}</li>
+        <li><strong>Critical Hit:</strong> {{ isCritical ? 'Yes' : 'No' }}</li>
+        <li><strong>Multiplier:</strong> {{ multiplier }}</li>
+        <li><strong>armour:</strong> {{ armour }}</li>
+    </ul>
+
+    <h2>🗡️ Damage Dealt: {{ damage }}</h2>
+{% endblock %}
